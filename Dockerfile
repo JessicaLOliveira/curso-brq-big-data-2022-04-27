@@ -12,5 +12,9 @@ RUN mkdir /nova-pasta
 # ao iniciar o container, o mesmo apresenta o console 
 ENTRYPOINT ["/bin/bash"]
 
+#PARA CRIAR IMAGEM:
 # docker build -t minha-imagem .
-#docker run --name mi -it minha-imagem
+#docker run --name mi -it minha-imagem   --> mi é o nome do container, posso trocar
+
+
+

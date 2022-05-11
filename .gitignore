@@ -1,0 +1,7 @@
+# essa pasta chamada git ignore, o git irá ignorar no momento de subir para o repositório
+
+volume/mysql/* 
+#pasta mysql esta dentro da pasta volume. e * é pra pegar tudo dentro dela
+
+#Só funciona quando o arquivo/pasta ainda não existe no repositório. 
+#Uma vez que já foi colocado no repositório, nao adianta inserir nessa pasta
