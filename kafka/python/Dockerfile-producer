@@ -1,0 +1,14 @@
+FROM python:3.9
+
+#rodar um comando para instalar os modulos faltando (mysql, kafka, pandas)
+RUN pip install mysql-connector-python kafka-python pandas
+
+
+#copiar os script python para dentro do container
+COPY . . 
+
+#executar via CMD os script python
+CMD ["producer.py"]
+
+#para abrir console python
+ENTRYPOINT ["python"]
